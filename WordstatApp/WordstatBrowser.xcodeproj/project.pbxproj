@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845A6E48A1AEC9FF8BCABFFF /* WordstatBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA30FF5CF187B93BFE02AA2 /* WordstatBrowserApp.swift */; };
+		FCA14E0AE53D18201CD39000 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908114BA1F89D7EC18B9D2F /* SearchView.swift */; };
+		7693A5C360DECCDD04E2FCD0 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59FB4687A0FC7C925674A9 /* SearchViewModel.swift */; };
+		76C416E1E154D28CE4B05A7D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAC38241B51C32F55925D9 /* DetailView.swift */; };
+		D9A7D197421CDC2F3568C667 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691A87125046248400AD3170 /* Models.swift */; };
+		C287A3EFD0AF8C1AC0EB8241 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA0E053D44605968B0DCEE /* NetworkMonitor.swift */; };
+		9D5EC38E02869B98B9067B72 /* WordstatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2F513D6BFFCBDF5D5C030 /* WordstatService.swift */; };
+		D6EDF2055FE01C323A82CC0F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235137B675374AF1EFC0548 /* Secrets.swift */; };
+		D2F5194FE84B22D9A53E0650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BB636196F91ED59D7A4919 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CA30FF5CF187B93BFE02AA2 /* WordstatBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordstatBrowserApp.swift; sourceTree = "<group>"; };
+		0908114BA1F89D7EC18B9D2F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0E59FB4687A0FC7C925674A9 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		95DAC38241B51C32F55925D9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		691A87125046248400AD3170 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6BFA0E053D44605968B0DCEE /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		F0D2F513D6BFFCBDF5D5C030 /* WordstatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordstatService.swift; sourceTree = "<group>"; };
+		2235137B675374AF1EFC0548 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		32BB636196F91ED59D7A4919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BF48AA40CAD7891EB709FC /* WordstatBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordstatBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F51EF3B9040A527832BEBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE3C71672121C2397F9F81F = {
+			isa = PBXGroup;
+			children = (
+				B12EE72417474422532EC679 /* WordstatBrowser */,
+				4FA33076EAECEB132DE7726D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12EE72417474422532EC679 /* WordstatBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				8CA30FF5CF187B93BFE02AA2 /* WordstatBrowserApp.swift */,
+				0908114BA1F89D7EC18B9D2F /* SearchView.swift */,
+				0E59FB4687A0FC7C925674A9 /* SearchViewModel.swift */,
+				95DAC38241B51C32F55925D9 /* DetailView.swift */,
+				691A87125046248400AD3170 /* Models.swift */,
+				6BFA0E053D44605968B0DCEE /* NetworkMonitor.swift */,
+				F0D2F513D6BFFCBDF5D5C030 /* WordstatService.swift */,
+				2235137B675374AF1EFC0548 /* Secrets.swift */,
+				32BB636196F91ED59D7A4919 /* Assets.xcassets */,
+			);
+			path = WordstatBrowser;
+			sourceTree = "<group>";
+		};
+		4FA33076EAECEB132DE7726D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* WordstatBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* WordstatBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91AF6958918AF87D6A057C1 /* Build configuration list for PBXNativeTarget "WordstatBrowser" */;
+			buildPhases = (
+				25D902C24283AB8CFBAC54DF /* Sources */,
+				8F51EF3B9040A527832BEBBA /* Frameworks */,
+				9B207167E5381C47682C6B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordstatBrowser;
+			productName = WordstatBrowser;
+			productReference = F5BF48AA40CAD7891EB709FC /* WordstatBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC844ABCCFC0D132D087C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 351325A660B25474456AF5C9 /* Build configuration list for PBXProject "WordstatBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE3C71672121C2397F9F81F;
+			productRefGroup = 4FA33076EAECEB132DE7726D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* WordstatBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B207167E5381C47682C6B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5194FE84B22D9A53E0650 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D902C24283AB8CFBAC54DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845A6E48A1AEC9FF8BCABFFF /* WordstatBrowserApp.swift in Sources */,
+				FCA14E0AE53D18201CD39000 /* SearchView.swift in Sources */,
+				7693A5C360DECCDD04E2FCD0 /* SearchViewModel.swift in Sources */,
+				76C416E1E154D28CE4B05A7D /* DetailView.swift in Sources */,
+				D9A7D197421CDC2F3568C667 /* Models.swift in Sources */,
+				C287A3EFD0AF8C1AC0EB8241 /* NetworkMonitor.swift in Sources */,
+				9D5EC38E02869B98B9067B72 /* WordstatService.swift in Sources */,
+				D6EDF2055FE01C323A82CC0F /* Secrets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3017D911EFCEB27D1DE6A92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wordstat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordstatBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		822050D9AE3C47F54BEE71B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wordstat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordstatBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		95687AFB5D9A2A9FA39038F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00639C71BA1DBDE84DB84B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351325A660B25474456AF5C9 /* Build configuration list for PBXProject "WordstatBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95687AFB5D9A2A9FA39038F9 /* Debug */,
+				00639C71BA1DBDE84DB84B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91AF6958918AF87D6A057C1 /* Build configuration list for PBXNativeTarget "WordstatBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3017D911EFCEB27D1DE6A92B /* Debug */,
+				822050D9AE3C47F54BEE71B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 4DC844ABCCFC0D132D087C1C /* Project object */;
+}
